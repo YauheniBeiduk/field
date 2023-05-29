@@ -1,0 +1,16 @@
+.submit-btn {
+  width: 184px;
+  height: 43px;
+  background: #007AF4;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+
+  &:disabled {
+    background: rgba(0, 122, 244, 0.5);
+  }
+}
